@@ -25,7 +25,7 @@ It supports homekit (homebridge with homebridge-mqtting plugin and http web requ
 ### Remote control
 ![](img/arduino_nano_esp.png)
 
-## Accomplished Project
+## Finished Project
 ![](img/4.JPG)
 ![](img/3.JPG)
 ![](img/2.JPG)
