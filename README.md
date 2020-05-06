@@ -5,7 +5,7 @@ It supports homekit (homebridge with homebridge-mqtting plugin and http web requ
 
 
 ## Homekit using homebridge
-![](img/homekit_app.PNG.PNG)
+![](img/homekit_app.PNG)
 ![](img/homebridge4relays.png)
 
 ## Components
