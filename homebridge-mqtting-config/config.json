@@ -1,0 +1,67 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "*******************",
+        "port": 53651,
+        "pin": "**********"
+    },
+    "accessories": [
+        {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "NodeRelay1",
+            "url": "mqtt://192.168.1.10",
+            "caption": "relay",
+            "topics": {
+                "getOn": "node4relay/relay1/out",
+                "setOn": "node4relay/relay1/in"
+            },
+            "integerValue": "true to use 1|0 instead of true|false default onValue and offValue",
+            "onValue": "1",
+            "offValue": "0"
+        },
+        {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "NodeRelay2",
+            "url": "mqtt://192.168.1.10",
+            "caption": "relay",
+            "topics": {
+                "getOn": "node4relay/relay2/out",
+                "setOn": "node4relay/relay2/in"
+            },
+            "integerValue": "true to use 1|0 instead of true|false default onValue and offValue",
+            "onValue": "1",
+            "offValue": "0"
+        },
+        {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "NodeRelay3",
+            "url": "mqtt://192.168.1.10",
+            "caption": "relay",
+            "topics": {
+                "getOn": "node4relay/relay3/out",
+                "setOn": "node4relay/relay3/in"
+            },
+            "integerValue": "true to use 1|0 instead of true|false default onValue and offValue",
+            "onValue": "1",
+            "offValue": "0"
+        },
+        {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "NodeRelay4",
+            "url": "mqtt://192.168.1.10",
+            "caption": "relay",
+            "topics": {
+                "getOn": "node4relay/relay4/out",
+                "setOn": "node4relay/relay4/in"
+            },
+            "integerValue": "true to use 1|0 instead of true|false default onValue and offValue",
+            "onValue": "1",
+            "offValue": "0"
+        }
+    ],
+    "platforms": []
+}
